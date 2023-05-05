@@ -51,6 +51,8 @@ Extract
 tar xvf prometheus*.tar.gz
 ```
 
+
+
 Navigate to directory
 
 ```bash
@@ -211,7 +213,6 @@ sudo systemctl status node-exporter
 
 #### Решение
 
-
 Configure Prometheus
 ```bash
 sudo vim /etc/prometheus/prometheus.yml
@@ -228,7 +229,6 @@ scrape_configs:
 ![prometheus status configuration](https://github.com/DanPogorelyi/devops/blob/main/04-monitoring_resilient/04-Prometheus_part-1/images/prometheus-status-configuration.png)
 
 ![prometheus status target](https://github.com/DanPogorelyi/devops/blob/main/04-monitoring_resilient/04-Prometheus_part-1/images/prometheus-status-target.png)
-
 
 ---
 
